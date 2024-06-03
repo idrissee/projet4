@@ -1,0 +1,101 @@
+BODY{
+    background-image: url(images/bg-intro-desktop.png);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-color:  hsl(0, 100%, 74%) ;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-size:62px;
+}
+.cadre-externe{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.right-cadre{
+   display: grid;
+   grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+ 
+    
+}
+.left-cadre{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:center;
+   
+}
+.jml1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/span 8;
+    grid-row: 3 / span 1;
+    border-radius: 10px;
+    background-color:  hsl(248, 32%, 49%);
+    width: 70%;
+    height: 70%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 0px 7px 7px rgb(82, 79, 79) ;
+    font-size: 30%;
+}
+.jml2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column: 2/span 8;
+    grid-row: 4 / span 6;
+    border-radius: 10px;
+    background-color: white;
+    width: 70%;
+    padding:3%;
+    box-shadow: 0px 7px 7px rgb(82, 79, 79) ;
+}
+.jml2 input{
+    width: 93%;
+    height: 12%;
+    border-radius: 5px;
+    border: 2px solid rgb(218, 217, 217);
+    padding-left:  4%;
+}
+.jml2 p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: grey;
+    align-self:center;
+   
+}
+.jml4{
+    background-color:hsl(154, 59%, 51%) ;
+    color: white;
+    font-size: 14px;
+    border:2px solid hsl(154, 59%, 51%)  ;
+}
+.jml3{
+    display: flex;
+    flex-direction: row;
+}
+input:hover{
+    border: 3px solid hsl(248, 32%, 49%) ;
+}
+.left-cadre article{
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+.left-cadre p{
+    margin: 0;
+    padding: 0;
+    font-size: 30%;
+}
